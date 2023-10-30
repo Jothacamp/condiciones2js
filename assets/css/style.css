@@ -1,0 +1,78 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Fondo gris claro */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+/* Estilos para los stickers */
+.sticker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    padding: 10px;
+    background-color: #fff; /* Fondo blanco */
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    transition: transform 0.2s ease-in-out; /* Efecto de escala al pasar el ratón */
+}
+
+.sticker:hover {
+    transform: scale(1.05); /* Escalar en un 5% al pasar el ratón */
+}
+
+img {
+    width: 100%;
+    max-width: 150px; /* Tamaño máximo de las imágenes */
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Estilos para el botón */
+.calcular {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ff6600; /* Naranja */
+    color: #fff; /* Texto blanco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out; /* Efecto de color al pasar el ratón */
+}
+
+.calcular:hover {
+    background-color: #ff9900; /* Naranja más claro al pasar el ratón */
+}
+
+/* Resultado */
+#resultado {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333; /* Texto gris oscuro */
+}
